@@ -5,10 +5,10 @@ import {
 } from "./test_data/state";
 import { eqObservable } from "./test_matcher";
 import { assertThat, eq } from "@selfage/test_matcher";
-import { NODE_TEST_RUNNER } from "@selfage/test_runner";
+import { TEST_RUNNER } from "@selfage/test_runner";
 import { ObservableArray } from "@selfage/observable_array";
 
-NODE_TEST_RUNNER.run({
+TEST_RUNNER.run({
   name: "CopierTest",
   cases: [
     {

@@ -9,9 +9,9 @@ import {
 import { eqObservable } from "./test_matcher";
 import { ObservableArray } from "@selfage/observable_array";
 import { assertThat, eq } from "@selfage/test_matcher";
-import { NODE_TEST_RUNNER } from "@selfage/test_runner";
+import { TEST_RUNNER } from "@selfage/test_runner";
 
-NODE_TEST_RUNNER.run({
+TEST_RUNNER.run({
   name: "ParserTest",
   cases: [
     {

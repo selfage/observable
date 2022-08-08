@@ -1,6 +1,6 @@
 {
   "name": "@selfage/observable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Runtime lib for generated observables.",
   "repository": {
     "type": "git",
@@ -26,13 +26,13 @@
     "!**/*_test.*"
   ],
   "devDependencies": {
-    "@selfage/test_runner": "^2.2.5",
+    "@selfage/cli": "^4.0.0",
+    "@selfage/test_runner": "^3.0.2",
     "@selfage/tsconfig": "^1.0.7",
-    "prettier": "^2.7.1",
     "typescript": "^4.1.5"
   },
   "dependencies": {
-    "@selfage/message": "^3.1.3",
+    "@selfage/message": "^3.1.6",
     "@selfage/observable_array": "^2.1.1",
     "@selfage/test_matcher": "^1.1.2"
   }

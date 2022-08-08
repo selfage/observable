@@ -1,11 +1,11 @@
 import { assertThat, eq } from "@selfage/test_matcher";
-import { NODE_TEST_RUNNER } from "@selfage/test_runner";
+import { TEST_RUNNER } from "@selfage/test_runner";
 import { NestedState, NESTED_STATE } from "./test_data/state";
 import { mergeObservable } from "./merger";
 import { eqObservable } from "./test_matcher";
 import { ObservableArray } from "@selfage/observable_array";
 
-NODE_TEST_RUNNER.run({
+TEST_RUNNER.run({
   name: "MergerTest",
   cases: [
     {
