@@ -1,6 +1,6 @@
 {
   "name": "@selfage/observable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Runtime lib for generated observables.",
   "repository": {
     "type": "git",
